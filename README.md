@@ -1,2 +1,2 @@
 # EjerciciosEscalables
-Ejercicios de la materia de web escalables
+**Nombre:** Diego Rolando Maldonado Acevedo
