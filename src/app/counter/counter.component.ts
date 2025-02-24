@@ -1,0 +1,25 @@
+import { NgIf } from '@angular/common';
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-counter',
+  imports: [NgIf],
+  templateUrl: './counter.component.html',
+  styleUrl: './counter.component.css'
+})
+export class CounterComponent {
+  //public counter : number = 0;
+  counter : number = 100;
+
+  constructor(){
+    //this.counter++;
+    //this.incrementBy(1);
+    
+  }
+
+  incrementBy(value : number = 1) : void{
+    //if(this.counter < 105)
+    this.counter+= value;  
+
+  }
+}
